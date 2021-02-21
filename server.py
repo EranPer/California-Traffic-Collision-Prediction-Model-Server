@@ -185,25 +185,19 @@ def index():
             </header>
             <div class="row">
             <div class="column">
-            <img src="
-            https://previews.dropbox.com/p/thumb/ABE8aqU9Rw94-XaTVgugcVmco_6kJGOcrmIJsFCxbFyAQNs_wBvg3wxHPSR_2TMfidFu-0UgdXUiBhR7iD12EV5H-qJBmz8LTOgTw45CLGjWiApg1UshB2Vb7w8Bb5xrIGMn1Y1DP2Vdtv9JgWELhHGrnGIwbGtS2F_XgBhi4nszT2RZg7mJeUdNJPQttK6BEmcVqGCfh0Y4nb4j6e0hXRRFT3MqhoT2AZzu9QpE4_NofKCzU-7I5axg-8o-0SesxVtfVXb5xwkct-p61nPM31By4gLi9twXPefVJvKz70o6X-DTiblepGunDxUqRiTLXchoNlAU5AJ1u417h3CYAuonykeODUdM94RU5WLGXwC2SQ/p.png?fv_content=true&size_mode=5
-            " 
+            <img src="image0" 
             alt="collisions map" 
             class="center" 
             style="float:center;width:489px;height:600px;">
             </div>
             <div class="column">
-            <img src="
-            https://previews.dropbox.com/p/orig/ABFqV639MHkAWXLZhuTRI_ObvSlTL1GGqAYLSZBdvDZbqeTq7g9IKDyNxzYEC9LLaO8KSszR5OeKwgU-F5L10hpFCVGbH6ayZeT1-o13rvyyiinnhOXYrL9v3QagQOQwV0VviUGr6bBTSWS5k9CYHYF1DmuZPqfkVTvUllpxzREaXR59-Wvqb0D8Dfdu2ET7if2keT38yYzmS0eJIDgo5dTkr_Plae5C9-aKYFH2uzK-WiRr-9yABQ71N5ImGK5u4gnnpJ4I9tzIGH1aiDvavt1r4HU_5-n_FGkrKR5oZ5iYl20deDQimJ9yMvPdHJ63aAb3qER6OZnq-4bS2wAh0TSY/p.gif?fv_content=true&size_mode=5
-            " 
+            <img src="image1" 
             alt="collisions map days" 
             class="center" 
             style="float:center;width:600px;height:600px;">
             </div>
             <div class="column">
-            <img src="
-            https://previews.dropbox.com/p/thumb/ABEoXpOB5YaZwbQz7bQa6cHtfaMe6p3pwL3A2swV2qwxqxWmR3pAuHK0EsWGefi8W7zMmWMNSynXou5ZRE4iYBCtg5nCy6m6txcj99795bDcGpMKP9EAtDan2fP8meNBq9xwQd_bguyPZfH4N7cHOnIN9AGBdCptZ3IWlQm5l_G0s57khOFc0KQdrVOG5zUYdGcLc3rar8KcEztKGLm-wRT-38MIw8hguAXOogkhENPIIipb1nKPxpA_4BVcOB8wZxIM-_KGICOXo4pnm-H75To-wLPfQxfhy7GHBsiqCAcihZEWmEQaezIx-I7l9s4ci5ETx2yzGScjdd0fCuaLarhS-avVStTQP-nwH6_P6aknECvjM1N3JJGX2rXP0FrRsqqF5ZcN-XQ0xV5n6zVxFfVLeCnt4PyL_jCnXPnNd_7jIA/p.gif?fv_content=true&size_mode=5
-            " 
+            <img src="image2" 
             alt="collisions map hours" 
             class="center" 
             style="float:center;width:600px;height:600px;">
@@ -482,8 +476,7 @@ opacity:1;
     html += classes[prediction]
     html += '</h1>'
     html += '<img src="'
-    # html += str(prediction) + '.jpg'
-    html += 'https://www.w3schools.com/howto/img_paris.jpg'
+    html += str(prediction) + '.jpg'
     html += '" alt="'
     html += classes[prediction]
     html += '" style="width:50%;">'
