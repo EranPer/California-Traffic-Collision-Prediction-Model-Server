@@ -185,19 +185,25 @@ def index():
             </header>
             <div class="row">
             <div class="column">
-            <img src="image0" 
+            <img src="
+	    https://previews.dropbox.com/p/thumb/ABGjFyQtI8rgHGGhCRYRd1lpAf8pUm3NeTZoamQKrU12IhAFTowNWwHq3WTLpob01UI95EHjl-utFjSR0eTaoSom0WIG7oM-xrgHoeY-v9UmmCDRfiBQ3CUrPEhlknyRmLOecnj-7nhNMNBrS0-kCFcx9PNCtApBzgPbGX6dvcdKVDxDW8Ni1xPyIeOLw296xj-zEOwyzD128k5snLXL3uwB67okd4BB3grfjvRuqA3I3E0hvJU7ID9yWfYyEK9VQImjoxgz7wG_VWb65bdvlv6KkROgZgoHqYn2FmRcUHfjsFBGaVg7l9PMS2WsYmWxAQvJIigcAxu2RB0fUIgGh93ST50NREYf8z6Ts7bg3I5Iww/p.png?fv_content=true&size_mode=5
+	    " 
             alt="collisions map" 
             class="center" 
             style="float:center;width:489px;height:600px;">
             </div>
             <div class="column">
-            <img src="image1" 
+            <img src="
+	    https://previews.dropbox.com/p/orig/ABHceeqzUhbxRppmS4PeuGbHYC-ksoc0h67cJNIFpk0R6XVz96jBBpBe00HsDs4kQ152xkrNyhaw_rMaPbVxtYEcQ63knAZFSd_moYPv9ZpV_9vgok2hyhQ9eNCZL41mOdHXEiKZIwSvyfP_1pIeUAHYCdH1spocUIOl1ALFjSwPi4R2dbTIEHZDc0dz-8aphQOcaVpb5cKpZB7B3lUQadbI_kARZU2P8BsEm9HmpfgzWvH1JHf4x_hZolQLfT1DiUV7GuHY2K25DgYaRT3Uc5wEOujhdLKmo5_UCTilmbSrnYQDeIiQ1BU56T49b29ctDJYlfOAvLpjV1Tis3Dhl40W/p.gif?fv_content=true&size_mode=5
+	    " 
             alt="collisions map days" 
             class="center" 
             style="float:center;width:600px;height:600px;">
             </div>
             <div class="column">
-            <img src="image2" 
+            <img src="
+	    https://previews.dropbox.com/p/thumb/ABHLvoBy0QP7Z-oaJGGu4IQZlnlU0gDg5psivryyEjyHxM_2ZCv5gfwJgkWfZIL_bx3MBRPfrX5HvzbPNqqYpXGsY-A1qT3XwpV6RUrQFrsOLPQELmRvMxmSLjOrvI7VbQfy3v_wy0ilSCKhX4VjI2TeBJt75BwRG5z_3JEExcMfEacaPeKBBN1zWQSysLBMANktluB73CjMduh5VcclH9_dO6xb3e-uR0sYxhRWQc8TW_ennfFcIoBflzEZzvI1CX9vY4is1Qav1eoj8PVaPSHwOgPmh-U_y10vowo_-cWy8ybNPwRGnPCbqtIiSPIOi65Jp2Jwff6u40uCrrtJDf_-XB0RCp_rO7ZCATvQkhIi4qWn3rG68oVGWKllrHmwYhcActoFJ6mYurZnXO2bI1vT64sIa-K99YRlBkHcw_FH5g/p.gif?fv_content=true&size_mode=5
+	    " 
             alt="collisions map hours" 
             class="center" 
             style="float:center;width:600px;height:600px;">
@@ -476,7 +482,15 @@ opacity:1;
     html += classes[prediction]
     html += '</h1>'
     html += '<img src="'
-    html += str(prediction) + '.jpg'
+    if prediction == 0:
+	html += 'https://previews.dropbox.com/p/thumb/ABET0AMRDKqjlSkV4cnnwlzQ6YIr007psDCU837-UDmZyvqqYjGCD-0-iznCb8UzJ13avA_F1tAtHGuosU8K3S5qe2WM7SSsq8CFy2nWbvAcgMA4U2ytevrb04YrBhB5vyMzRyjZRkrDjy6vYqsH32EM64lA-NrzV0mHUvWxMqZGxJ8R7TMIzBuQZ1EvVONjYe9_zy3GeZtGV5p_oswugUhGzvh2cemMwwAYhkXULGwAEIE45xOb9S3eUd57ovox8lO7u7TrF9_YK677kae2ZbIt9YE5QJx3qVLlX5O0o86qVsdUWHKkj3O_KW-A3E6WHzFcs5Dly0FIGG8bPfsa7IdAgY-f47z_tr6Aj9DIEd0TLg/p.jpeg?fv_content=true&size_mode=5'
+    elif prediction == 1:
+	html += 'https://previews.dropbox.com/p/thumb/ABGYnZzzD6iqnyTBwiHn02knng63wSG5vUMeGcqvus9XYskdg-xD4MFYKt8OHhwUZLno_yc7mkuq1OF3KPo3yNOnd_RjB9IHfAh3nUgZkU-nJAGCBa_8eusvi0a3sqAw25Oc6foEEvMdqmcK5tvnPgLNQVf4Hn5KA-lJfPcPrxuaoL_CZGW2qki1ExhJSMufgpuCxG5uGJs_ceooKADvQrPLlZpQepixC1UHKsfZkjvCxDfdXNwN-kAnJ8hB1ZSwff6EYwae5fNdB3SmX8XYSHsCSpdwIIIV9ERc87qkdbQvJT2jIQwW-fHYOPU8Pf3edUprk4A9svMHkzOOWU9KHkifyTqjEhWklfoGiIF4EvYtwQ/p.jpeg?fv_content=true&size_mode=5'    elif prediction == 2:
+    elif prediction == 2:
+	html += 'https://previews.dropbox.com/p/thumb/ABEHS8P8UsYccACMoBbZ-ClQ8QHV5hYq69KWcovCSdX5SpXi0Sd3DqgXWzbmECZGH3jE4BTTJLhdrWnrTw41lUwUyxoHn8_UeG74Y-qE6SHQX_5pE959T6_WidaCbPDjoAsgsi-1U-LmD4xmU4QBcJu7_gP7Q6P05km75mx88SeOCnxWADS27Be4Weu1Lz6e7EE77CvEm3rFJPEk1SVRnO8lXf5J8kEzK-oFKYaojV_8kIssR4_mm2nj1XMF6hQL4XFJdcco8yZ2qXpqBsTcBiD9i8TVzeeXRsq3R5K_hNiwdaeJt8PbCAXhfkiRuSOQKPTU676o7ArfNFXjnCzDam4oqvRSg6YXbhZWqZ977-UbTA/p.jpeg?fv_content=true&size_mode=5'
+    elif prediction == 3:
+	html += 'https://previews.dropbox.com/p/thumb/ABEX3d065aeLfNC1JaOy4MB_33E_INHnd_KMKmipg6ImmYaFa7GOZAcqja4uMK7J-NAvdcO3L9Df3TCB1lcqIZDjm2R2RaQcJT4EZXiEh-rHE2SHKmu85oW5u8kK9gJIuR_qOX5sKI31eCtBwhQOWJ3QsbbbufpM8Enc9i8gSjvZRNr11y6uiiuz6Djr353waYSYt2ry35HyqDTKfwc7lFd_YY05fXCEaJ9voZ4YQaLVrAG8c4yzLxEA64b3K6VgKbEGYX5TGnxeIks0FMCtJ2574S2vx8L0kTo_lceQwF92170li1FOKr7xfdCSIEgSszjsqmz3c_46JL1AwDLyHqOVJNCXMC6sWQ6yP3JCxjYT9A/p.jpeg?fv_content=true&size_mode=5'
+    # html += str(prediction) + '.jpg'
     html += '" alt="'
     html += classes[prediction]
     html += '" style="width:50%;">'
