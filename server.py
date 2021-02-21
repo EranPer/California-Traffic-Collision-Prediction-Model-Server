@@ -138,13 +138,11 @@ def index():
                 * {
                   box-sizing: border-box;
                 }
-
                 .column {
                   float: left;
                   width: 33.33%;
                   padding: 5px;
                 }
-
                 /* Clearfix (clear floats) */
                 .row::after {
                   content: "";
@@ -162,11 +160,9 @@ def index():
                   outline: none;
                   font-size: 15px;
                 }
-
                 .active, .collapsible:hover {
                   background-color: #555;
                 }
-
                 .content {
                   padding: 0 18px;
                   display: none;
@@ -233,10 +229,8 @@ def index():
     html += '''
         <h3><input type="submit" value="Submit"></h3>
         </form>
-
         <p>Click the "Submit" button when finished.</p>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Premium content</a>
-
         </body>
         </html>
         '''
@@ -325,12 +319,8 @@ def predict_single_ui():
               margin-right: auto;
             }
             
-
         body, table, input, select, textarea {
-
         }
-
-
 .graph {
 margin-bottom:1em;
   font:normal 100%/150% arial,helvetica,sans-serif;
@@ -339,34 +329,26 @@ margin-bottom:1em;
   margin-right: auto;
   width: 50%;
 }
-
 .graph caption {
 font:bold 150%/120% arial,helvetica,sans-serif;
 padding-bottom:0.33em;
 }
-
 .graph tbody th {
 text-align:right;
 }
-
 @supports (display:grid) {
-
 @media (min-width:32em) {
-
 .graph {
 display:block;
       width:600px;
       height:300px;
 		}
-
 		.graph caption {
 			display:block;
 		}
-
 		.graph thead {
 			display:none;
 		}
-
 		.graph tbody {
 			position:relative;
 			display:grid;
@@ -385,7 +367,6 @@ display:block;
 				transparent 20%
 			);
 		}
-
 		.graph tbody:before,
 		.graph tbody:after {
 			position:absolute;
@@ -394,32 +375,26 @@ display:block;
 			text-align:right;
 			font:bold 80%/120% arial,helvetica,sans-serif;
 		}
-
 		.graph tbody:before {
 			content:"100%";
 			top:-0.6em;
 		}
-
 		.graph tbody:after {
 			content:"0%";
 			bottom:-0.6em;
 		}
-
 		.graph tr {
 			position:relative;
 			display:block;
 		}
-
 		.graph tr:hover {
 			z-index:999;
 		}
-
 		.graph th,
 		.graph td {
 			display:block;
 			text-align:center;
 		}
-
 		.graph tbody th {
 			position:absolute;
 			top:-3em;
@@ -431,11 +406,9 @@ display:block;
 			text-indent:0;
 			transform:rotate(-45deg);
 		}
-
 		.graph tbody th:after {
 			content:"";
 		}
-
 		.graph td {
 			width:100%;
 			height:100%;
@@ -443,11 +416,9 @@ display:block;
 			border-radius:0.5em 0.5em 0 0;
 			transition:background 0.5s;
 		}
-
 		.graph tr:hover td {
 			opacity:0.7;
 		}
-
 		.graph td span {
 			overflow:hidden;
 			position:absolute;
@@ -464,7 +435,6 @@ opacity:0;
 transition:opacity 0.5s;
       color:white;
 }
-
 .toggleGraph:checked + table td span,
 .graph tr:hover td span {
 width:4em;
@@ -472,7 +442,6 @@ margin-left:-2em; /* 1/2 the declared width */
 opacity:1;
 }
 } /* min-width:32em */
-
 } /* grid only */
             </style>
             </head>
@@ -483,13 +452,13 @@ opacity:1;
     html += '</h1>'
     html += '<img src="'
     if prediction == 0:
-	html += 'https://previews.dropbox.com/p/thumb/ABET0AMRDKqjlSkV4cnnwlzQ6YIr007psDCU837-UDmZyvqqYjGCD-0-iznCb8UzJ13avA_F1tAtHGuosU8K3S5qe2WM7SSsq8CFy2nWbvAcgMA4U2ytevrb04YrBhB5vyMzRyjZRkrDjy6vYqsH32EM64lA-NrzV0mHUvWxMqZGxJ8R7TMIzBuQZ1EvVONjYe9_zy3GeZtGV5p_oswugUhGzvh2cemMwwAYhkXULGwAEIE45xOb9S3eUd57ovox8lO7u7TrF9_YK677kae2ZbIt9YE5QJx3qVLlX5O0o86qVsdUWHKkj3O_KW-A3E6WHzFcs5Dly0FIGG8bPfsa7IdAgY-f47z_tr6Aj9DIEd0TLg/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://previews.dropbox.com/p/thumb/ABET0AMRDKqjlSkV4cnnwlzQ6YIr007psDCU837-UDmZyvqqYjGCD-0-iznCb8UzJ13avA_F1tAtHGuosU8K3S5qe2WM7SSsq8CFy2nWbvAcgMA4U2ytevrb04YrBhB5vyMzRyjZRkrDjy6vYqsH32EM64lA-NrzV0mHUvWxMqZGxJ8R7TMIzBuQZ1EvVONjYe9_zy3GeZtGV5p_oswugUhGzvh2cemMwwAYhkXULGwAEIE45xOb9S3eUd57ovox8lO7u7TrF9_YK677kae2ZbIt9YE5QJx3qVLlX5O0o86qVsdUWHKkj3O_KW-A3E6WHzFcs5Dly0FIGG8bPfsa7IdAgY-f47z_tr6Aj9DIEd0TLg/p.jpeg?fv_content=true&size_mode=5'
     elif prediction == 1:
-	html += 'https://previews.dropbox.com/p/thumb/ABGYnZzzD6iqnyTBwiHn02knng63wSG5vUMeGcqvus9XYskdg-xD4MFYKt8OHhwUZLno_yc7mkuq1OF3KPo3yNOnd_RjB9IHfAh3nUgZkU-nJAGCBa_8eusvi0a3sqAw25Oc6foEEvMdqmcK5tvnPgLNQVf4Hn5KA-lJfPcPrxuaoL_CZGW2qki1ExhJSMufgpuCxG5uGJs_ceooKADvQrPLlZpQepixC1UHKsfZkjvCxDfdXNwN-kAnJ8hB1ZSwff6EYwae5fNdB3SmX8XYSHsCSpdwIIIV9ERc87qkdbQvJT2jIQwW-fHYOPU8Pf3edUprk4A9svMHkzOOWU9KHkifyTqjEhWklfoGiIF4EvYtwQ/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://previews.dropbox.com/p/thumb/ABGYnZzzD6iqnyTBwiHn02knng63wSG5vUMeGcqvus9XYskdg-xD4MFYKt8OHhwUZLno_yc7mkuq1OF3KPo3yNOnd_RjB9IHfAh3nUgZkU-nJAGCBa_8eusvi0a3sqAw25Oc6foEEvMdqmcK5tvnPgLNQVf4Hn5KA-lJfPcPrxuaoL_CZGW2qki1ExhJSMufgpuCxG5uGJs_ceooKADvQrPLlZpQepixC1UHKsfZkjvCxDfdXNwN-kAnJ8hB1ZSwff6EYwae5fNdB3SmX8XYSHsCSpdwIIIV9ERc87qkdbQvJT2jIQwW-fHYOPU8Pf3edUprk4A9svMHkzOOWU9KHkifyTqjEhWklfoGiIF4EvYtwQ/p.jpeg?fv_content=true&size_mode=5'
     elif prediction == 2:
-	html += 'https://previews.dropbox.com/p/thumb/ABEHS8P8UsYccACMoBbZ-ClQ8QHV5hYq69KWcovCSdX5SpXi0Sd3DqgXWzbmECZGH3jE4BTTJLhdrWnrTw41lUwUyxoHn8_UeG74Y-qE6SHQX_5pE959T6_WidaCbPDjoAsgsi-1U-LmD4xmU4QBcJu7_gP7Q6P05km75mx88SeOCnxWADS27Be4Weu1Lz6e7EE77CvEm3rFJPEk1SVRnO8lXf5J8kEzK-oFKYaojV_8kIssR4_mm2nj1XMF6hQL4XFJdcco8yZ2qXpqBsTcBiD9i8TVzeeXRsq3R5K_hNiwdaeJt8PbCAXhfkiRuSOQKPTU676o7ArfNFXjnCzDam4oqvRSg6YXbhZWqZ977-UbTA/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://previews.dropbox.com/p/thumb/ABEHS8P8UsYccACMoBbZ-ClQ8QHV5hYq69KWcovCSdX5SpXi0Sd3DqgXWzbmECZGH3jE4BTTJLhdrWnrTw41lUwUyxoHn8_UeG74Y-qE6SHQX_5pE959T6_WidaCbPDjoAsgsi-1U-LmD4xmU4QBcJu7_gP7Q6P05km75mx88SeOCnxWADS27Be4Weu1Lz6e7EE77CvEm3rFJPEk1SVRnO8lXf5J8kEzK-oFKYaojV_8kIssR4_mm2nj1XMF6hQL4XFJdcco8yZ2qXpqBsTcBiD9i8TVzeeXRsq3R5K_hNiwdaeJt8PbCAXhfkiRuSOQKPTU676o7ArfNFXjnCzDam4oqvRSg6YXbhZWqZ977-UbTA/p.jpeg?fv_content=true&size_mode=5'
     elif prediction == 3:
-	html += 'https://previews.dropbox.com/p/thumb/ABEX3d065aeLfNC1JaOy4MB_33E_INHnd_KMKmipg6ImmYaFa7GOZAcqja4uMK7J-NAvdcO3L9Df3TCB1lcqIZDjm2R2RaQcJT4EZXiEh-rHE2SHKmu85oW5u8kK9gJIuR_qOX5sKI31eCtBwhQOWJ3QsbbbufpM8Enc9i8gSjvZRNr11y6uiiuz6Djr353waYSYt2ry35HyqDTKfwc7lFd_YY05fXCEaJ9voZ4YQaLVrAG8c4yzLxEA64b3K6VgKbEGYX5TGnxeIks0FMCtJ2574S2vx8L0kTo_lceQwF92170li1FOKr7xfdCSIEgSszjsqmz3c_46JL1AwDLyHqOVJNCXMC6sWQ6yP3JCxjYT9A/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://previews.dropbox.com/p/thumb/ABEX3d065aeLfNC1JaOy4MB_33E_INHnd_KMKmipg6ImmYaFa7GOZAcqja4uMK7J-NAvdcO3L9Df3TCB1lcqIZDjm2R2RaQcJT4EZXiEh-rHE2SHKmu85oW5u8kK9gJIuR_qOX5sKI31eCtBwhQOWJ3QsbbbufpM8Enc9i8gSjvZRNr11y6uiiuz6Djr353waYSYt2ry35HyqDTKfwc7lFd_YY05fXCEaJ9voZ4YQaLVrAG8c4yzLxEA64b3K6VgKbEGYX5TGnxeIks0FMCtJ2574S2vx8L0kTo_lceQwF92170li1FOKr7xfdCSIEgSszjsqmz3c_46JL1AwDLyHqOVJNCXMC6sWQ6yP3JCxjYT9A/p.jpeg?fv_content=true&size_mode=5'
     # html += str(prediction) + '.jpg'
     html += '" alt="'
     html += classes[prediction]
@@ -635,7 +604,6 @@ def get_features_table():
         html += '</label>'       
         html += '</th>'
     html += '</tr><tr>'
-
     for feature in selected_features:
         html += '<th><input type="text" id="'
         html += feature
