@@ -179,14 +179,7 @@ def index():
                 SWITRS contains all collisions that were reported to CHP from local and governmental agencies.<br>
             </p>
             </header>
-            <div class="row">
-            <div class="column">
-            <img src="https://www.azizilawfirm.com/wp-content/uploads/2017/05/report-a-car-accident-float.jpg" 
-            alt="collisions map" 
-            class="center" 
-            style="float:center;width:900px;height:598px;">
-            </div>
-	    </div>
+            <img src="https://www.azizilawfirm.com/wp-content/uploads/2017/05/report-a-car-accident-float.jpg" alt="collisions map">
             <h2>
                 <a href="https://www.itc.tech/">An ITC Data Science project</a>
                 <br>Participants: Ariana Gordon, Eran Perelman, Eyal Hashimshoni and Royi Razi<br>
@@ -436,11 +429,11 @@ opacity:1;
     if prediction == 0:
         html += 'https://i.ibb.co/d05kByC/image.jpg'
     elif prediction == 1:
-        html += 'https://previews.dropbox.com/p/thumb/ABGYnZzzD6iqnyTBwiHn02knng63wSG5vUMeGcqvus9XYskdg-xD4MFYKt8OHhwUZLno_yc7mkuq1OF3KPo3yNOnd_RjB9IHfAh3nUgZkU-nJAGCBa_8eusvi0a3sqAw25Oc6foEEvMdqmcK5tvnPgLNQVf4Hn5KA-lJfPcPrxuaoL_CZGW2qki1ExhJSMufgpuCxG5uGJs_ceooKADvQrPLlZpQepixC1UHKsfZkjvCxDfdXNwN-kAnJ8hB1ZSwff6EYwae5fNdB3SmX8XYSHsCSpdwIIIV9ERc87qkdbQvJT2jIQwW-fHYOPU8Pf3edUprk4A9svMHkzOOWU9KHkifyTqjEhWklfoGiIF4EvYtwQ/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://i.ibb.co/n1XPsZP/1.jpg'
     elif prediction == 2:
-        html += 'https://previews.dropbox.com/p/thumb/ABEHS8P8UsYccACMoBbZ-ClQ8QHV5hYq69KWcovCSdX5SpXi0Sd3DqgXWzbmECZGH3jE4BTTJLhdrWnrTw41lUwUyxoHn8_UeG74Y-qE6SHQX_5pE959T6_WidaCbPDjoAsgsi-1U-LmD4xmU4QBcJu7_gP7Q6P05km75mx88SeOCnxWADS27Be4Weu1Lz6e7EE77CvEm3rFJPEk1SVRnO8lXf5J8kEzK-oFKYaojV_8kIssR4_mm2nj1XMF6hQL4XFJdcco8yZ2qXpqBsTcBiD9i8TVzeeXRsq3R5K_hNiwdaeJt8PbCAXhfkiRuSOQKPTU676o7ArfNFXjnCzDam4oqvRSg6YXbhZWqZ977-UbTA/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://i.ibb.co/GQXJtp9/2.jpg'
     elif prediction == 3:
-        html += 'https://previews.dropbox.com/p/thumb/ABEX3d065aeLfNC1JaOy4MB_33E_INHnd_KMKmipg6ImmYaFa7GOZAcqja4uMK7J-NAvdcO3L9Df3TCB1lcqIZDjm2R2RaQcJT4EZXiEh-rHE2SHKmu85oW5u8kK9gJIuR_qOX5sKI31eCtBwhQOWJ3QsbbbufpM8Enc9i8gSjvZRNr11y6uiiuz6Djr353waYSYt2ry35HyqDTKfwc7lFd_YY05fXCEaJ9voZ4YQaLVrAG8c4yzLxEA64b3K6VgKbEGYX5TGnxeIks0FMCtJ2574S2vx8L0kTo_lceQwF92170li1FOKr7xfdCSIEgSszjsqmz3c_46JL1AwDLyHqOVJNCXMC6sWQ6yP3JCxjYT9A/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://i.ibb.co/LCXqC4X/3.jpg'
     # html += str(prediction) + '.jpg'
     html += '" alt="'
     html += classes[prediction]
