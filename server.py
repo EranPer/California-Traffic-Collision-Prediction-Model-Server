@@ -184,24 +184,7 @@ def index():
             <img src="https://www.azizilawfirm.com/wp-content/uploads/2017/05/report-a-car-accident-float.jpg" 
             alt="collisions map" 
             class="center" 
-            style="float:center;width:489px;height:600px;">
-            </div>
-            <div class="column">
-            <img src="
-	    https://previews.dropbox.com/p/orig/ABHceeqzUhbxRppmS4PeuGbHYC-ksoc0h67cJNIFpk0R6XVz96jBBpBe00HsDs4kQ152xkrNyhaw_rMaPbVxtYEcQ63knAZFSd_moYPv9ZpV_9vgok2hyhQ9eNCZL41mOdHXEiKZIwSvyfP_1pIeUAHYCdH1spocUIOl1ALFjSwPi4R2dbTIEHZDc0dz-8aphQOcaVpb5cKpZB7B3lUQadbI_kARZU2P8BsEm9HmpfgzWvH1JHf4x_hZolQLfT1DiUV7GuHY2K25DgYaRT3Uc5wEOujhdLKmo5_UCTilmbSrnYQDeIiQ1BU56T49b29ctDJYlfOAvLpjV1Tis3Dhl40W/p.gif?fv_content=true&size_mode=5
-	    " 
-            alt="collisions map days" 
-            class="center" 
-            style="float:center;width:600px;height:600px;">
-            </div>
-            <div class="column">
-            <img src="
-	    https://previews.dropbox.com/p/thumb/ABHLvoBy0QP7Z-oaJGGu4IQZlnlU0gDg5psivryyEjyHxM_2ZCv5gfwJgkWfZIL_bx3MBRPfrX5HvzbPNqqYpXGsY-A1qT3XwpV6RUrQFrsOLPQELmRvMxmSLjOrvI7VbQfy3v_wy0ilSCKhX4VjI2TeBJt75BwRG5z_3JEExcMfEacaPeKBBN1zWQSysLBMANktluB73CjMduh5VcclH9_dO6xb3e-uR0sYxhRWQc8TW_ennfFcIoBflzEZzvI1CX9vY4is1Qav1eoj8PVaPSHwOgPmh-U_y10vowo_-cWy8ybNPwRGnPCbqtIiSPIOi65Jp2Jwff6u40uCrrtJDf_-XB0RCp_rO7ZCATvQkhIi4qWn3rG68oVGWKllrHmwYhcActoFJ6mYurZnXO2bI1vT64sIa-K99YRlBkHcw_FH5g/p.gif?fv_content=true&size_mode=5
-	    " 
-            alt="collisions map hours" 
-            class="center" 
-            style="float:center;width:600px;height:600px;">
-            </div>
+            style="float:center;width:900px;height:598px;">
             </div>
             <h2>
                 <a href="https://www.itc.tech/">An ITC Data Science project</a>
