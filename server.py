@@ -431,9 +431,13 @@ opacity:1;
     html += '<h1>'
     html += classes[prediction]
     html += '</h1>'
+<a href="https://ibb.co/5WRsTVp"><img src="https://i.ibb.co/d05kByC/image.jpg" alt="image" border="0"></a>
+<a href="https://ibb.co/wQncN3c"><img src="https://i.ibb.co/n1XPsZP/1.jpg" alt="1" border="0"></a>
+<a href="https://ibb.co/0ykXF2K"><img src="https://i.ibb.co/GQXJtp9/2.jpg" alt="2" border="0"></a>
+<a href="https://ibb.co/Cn3Xnx3"><img src="https://i.ibb.co/LCXqC4X/3.jpg" alt="3" border="0"></a>
     html += '<img src="'
     if prediction == 0:
-        html += 'https://previews.dropbox.com/p/thumb/ABET0AMRDKqjlSkV4cnnwlzQ6YIr007psDCU837-UDmZyvqqYjGCD-0-iznCb8UzJ13avA_F1tAtHGuosU8K3S5qe2WM7SSsq8CFy2nWbvAcgMA4U2ytevrb04YrBhB5vyMzRyjZRkrDjy6vYqsH32EM64lA-NrzV0mHUvWxMqZGxJ8R7TMIzBuQZ1EvVONjYe9_zy3GeZtGV5p_oswugUhGzvh2cemMwwAYhkXULGwAEIE45xOb9S3eUd57ovox8lO7u7TrF9_YK677kae2ZbIt9YE5QJx3qVLlX5O0o86qVsdUWHKkj3O_KW-A3E6WHzFcs5Dly0FIGG8bPfsa7IdAgY-f47z_tr6Aj9DIEd0TLg/p.jpeg?fv_content=true&size_mode=5'
+        html += 'https://i.ibb.co/d05kByC/image.jpg'
     elif prediction == 1:
         html += 'https://previews.dropbox.com/p/thumb/ABGYnZzzD6iqnyTBwiHn02knng63wSG5vUMeGcqvus9XYskdg-xD4MFYKt8OHhwUZLno_yc7mkuq1OF3KPo3yNOnd_RjB9IHfAh3nUgZkU-nJAGCBa_8eusvi0a3sqAw25Oc6foEEvMdqmcK5tvnPgLNQVf4Hn5KA-lJfPcPrxuaoL_CZGW2qki1ExhJSMufgpuCxG5uGJs_ceooKADvQrPLlZpQepixC1UHKsfZkjvCxDfdXNwN-kAnJ8hB1ZSwff6EYwae5fNdB3SmX8XYSHsCSpdwIIIV9ERc87qkdbQvJT2jIQwW-fHYOPU8Pf3edUprk4A9svMHkzOOWU9KHkifyTqjEhWklfoGiIF4EvYtwQ/p.jpeg?fv_content=true&size_mode=5'
     elif prediction == 2:
