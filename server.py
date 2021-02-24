@@ -186,6 +186,7 @@ def index():
             class="center" 
             style="float:center;width:900px;height:598px;">
             </div>
+	    </div>
             <h2>
                 <a href="https://www.itc.tech/">An ITC Data Science project</a>
                 <br>Participants: Ariana Gordon, Eran Perelman, Eyal Hashimshoni and Royi Razi<br>
@@ -431,10 +432,6 @@ opacity:1;
     html += '<h1>'
     html += classes[prediction]
     html += '</h1>'
-<a href="https://ibb.co/5WRsTVp"><img src="https://i.ibb.co/d05kByC/image.jpg" alt="image" border="0"></a>
-<a href="https://ibb.co/wQncN3c"><img src="https://i.ibb.co/n1XPsZP/1.jpg" alt="1" border="0"></a>
-<a href="https://ibb.co/0ykXF2K"><img src="https://i.ibb.co/GQXJtp9/2.jpg" alt="2" border="0"></a>
-<a href="https://ibb.co/Cn3Xnx3"><img src="https://i.ibb.co/LCXqC4X/3.jpg" alt="3" border="0"></a>
     html += '<img src="'
     if prediction == 0:
         html += 'https://i.ibb.co/d05kByC/image.jpg'
