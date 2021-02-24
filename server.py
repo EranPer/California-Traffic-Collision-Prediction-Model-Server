@@ -181,7 +181,7 @@ def index():
             </header>
             <div class="row">
             <div class="column">
-            <img src=""assets/image0.png" 
+            <img src="/assets/image0.png" 
             alt="collisions map" 
             class="center" 
             style="float:center;width:489px;height:600px;">
