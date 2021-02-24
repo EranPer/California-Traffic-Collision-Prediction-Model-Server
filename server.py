@@ -181,7 +181,7 @@ def index():
             </header>
             <div class="row">
             <div class="column">
-            <img src="assets/image0.png" 
+            <img src="https://www.azizilawfirm.com/wp-content/uploads/2017/05/report-a-car-accident-float.jpg" 
             alt="collisions map" 
             class="center" 
             style="float:center;width:489px;height:600px;">
