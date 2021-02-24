@@ -181,9 +181,7 @@ def index():
             </header>
             <div class="row">
             <div class="column">
-            <img src="
-	    https://previews.dropbox.com/p/thumb/ABGjFyQtI8rgHGGhCRYRd1lpAf8pUm3NeTZoamQKrU12IhAFTowNWwHq3WTLpob01UI95EHjl-utFjSR0eTaoSom0WIG7oM-xrgHoeY-v9UmmCDRfiBQ3CUrPEhlknyRmLOecnj-7nhNMNBrS0-kCFcx9PNCtApBzgPbGX6dvcdKVDxDW8Ni1xPyIeOLw296xj-zEOwyzD128k5snLXL3uwB67okd4BB3grfjvRuqA3I3E0hvJU7ID9yWfYyEK9VQImjoxgz7wG_VWb65bdvlv6KkROgZgoHqYn2FmRcUHfjsFBGaVg7l9PMS2WsYmWxAQvJIigcAxu2RB0fUIgGh93ST50NREYf8z6Ts7bg3I5Iww/p.png?fv_content=true&size_mode=5
-	    " 
+            <img src=""assets/image0.jpg" 
             alt="collisions map" 
             class="center" 
             style="float:center;width:489px;height:600px;">
